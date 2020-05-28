@@ -1,4 +1,4 @@
-package app;
+package APP;
 import java.util.Random;
 
 public class InstructionGenerator {
@@ -62,7 +62,10 @@ public class InstructionGenerator {
             return "WRITE";
         }
     }
-
+    /**
+     * 
+     * @return
+     */
     private String newData(){
         final Random r = new Random();
         final int data = r.nextInt(65535);

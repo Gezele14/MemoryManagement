@@ -1,47 +1,34 @@
-package app;
+package APP;
 
 public class Core extends Thread{
 
     //Atrubutos
     public boolean powerON = false;
     //private boolean L1Miss = false;
+    private boolean update = false;
     private String id = "";
     private String fatherId = "";
     private String memDirMiss = "";
-    private String[][] L1 = new String[3][4];
+    private String[][] L1 = {{"Bloque", "Coherencia", "Dir. Mem", "Dato"},
+                             {"","","",""},
+                             {"","","",""}};
+    InstructionGenerator instr = new InstructionGenerator();
 
     //Constructor
     public Core(String msg,String _fatherId, String _id){
         super(msg);
         this.id = _id;
         this.fatherId = _fatherId;
-        this.L1[0][0] = "Bloque";
-        this.L1[0][1] = "Coherencia";
-        this.L1[0][2] = "DirMem";
-        this.L1[0][3] = "Dato";
-        this.L1[1][0] = "0";
-        this.L1[2][0] = "1";
     }
 
-    //Getter and Setters
-    public boolean isPowerON() {
-		return powerON;
-	}
-
-	public void setPowerON(boolean powerON) {
-		this.powerON = powerON;
-    }
-
-	public String getMemDirMiss() {
-		return memDirMiss;
-    }
     
     //Metodos
     public void run(){
-        InstructionGenerator instr = new InstructionGenerator();
         while (!this.powerON){
-            String instruction = instr.newInstruction(this.fatherId, this.id);
+            String instruction = this.instr.newInstruction(this.fatherId, this.id);
             System.out.println(instruction);
+            this.L1[1][1] = instruction; 
+            this.update = true;
             try{
                 Thread.sleep(3000);
             }catch(Exception e){
@@ -49,4 +36,43 @@ public class Core extends Thread{
             }
         }
     }
+
+    private String[] instrDecoder(String instr){
+        String[] instrDecoded = instr.split(";");
+        return instrDecoded;
+    }
+
+    private boolean instrCheck(String[] instr){
+        for (int i = 0; i < this.L1.length; i++) {
+            if(instr[3] == this.L1[i][2]){
+                return true;
+            }
+        }
+        return false;
+    }
+    //Getter and Setters
+    public boolean isPowerON() {
+        return powerON;
+    }
+
+    public void setPowerON(boolean powerON) {
+        this.powerON = powerON;
+    }
+
+    public String getMemDirMiss() {
+        return memDirMiss;
+    }
+    public String[][] getL1() {
+        return L1;
+    }
+
+    public boolean isUpdate() {
+        return update;
+    }
+
+    public void setUpdate(boolean update) {
+        this.update = update;
+    }
+
+    
 }

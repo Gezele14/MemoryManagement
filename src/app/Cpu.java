@@ -1,8 +1,8 @@
-package app;
+package APP;
 
 public class Cpu extends Thread{
     //Atributos
-    private boolean L2Miss;
+    //private boolean L2Miss;
     private String id = "";
 
     private Core core0;
@@ -22,4 +22,12 @@ public class Cpu extends Thread{
         this.core1.start();
     }
 
+    public Core getCore0() {
+        return core0;
+    }
+
+    public Core getCore1() {
+        return core1;
+    }
+    
 }
