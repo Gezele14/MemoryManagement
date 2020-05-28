@@ -69,5 +69,18 @@
             <Insets top="10.0" />
          </padding>
       </HBox>
+      <HBox alignment="TOP_CENTER" fillHeight="false" nodeOrientation="LEFT_TO_RIGHT" spacing="12.0">
+         <children>
+            <VBox alignment="TOP_CENTER">
+               <children>
+                  <Label fx:id="MEMPRIN" style="-fx-font-size: 20; -fx-font-weight: bold;" text="Memoria Principal" textFill="WHITE" />
+                  <TableView fx:id="L2P01" prefHeight="237.0" prefWidth="579.0" style="-fx-background-color: #11BB9B;" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+      </HBox>
    </children>
 </VBox>

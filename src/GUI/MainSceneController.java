@@ -1,16 +1,25 @@
 package GUI;
 
 import javafx.beans.property.SimpleStringProperty;
+import javafx.scene.control.Button;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 
 public class MainSceneController {
+
+  public Button Mybutton;
+
   public TableView<String[]> L1P00;
   public TableView<String[]> L1P01;
   public TableView<String[]> L1P10;
   public TableView<String[]> L1P11;
   public TableView<String[]> L2P0;
   public TableView<String[]> L2P1;
+  public TableView<String[]> MEMPRIN;
+
+  public void sayHello(){
+    System.out.println("Hello");
+  }
 
   public void printMatrix(TableView<String[]> target,String[][] source) {
     

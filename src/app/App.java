@@ -1,11 +1,10 @@
-package app;
+package APP;
 
-public class App {
-    public static void main(String[] args) throws Exception {
-        Cpu cpu0 = new Cpu("Processor0", "P0");
-        Cpu cpu1 = new Cpu("Processor1", "P1");
+import GUI.Main;
+import javafx.application.Application;
 
-        cpu0.start();
-        cpu1.start();
+public class App{
+    public static void main(final String[] args) throws Exception {
+        Application.launch(Main.class, args);
     }
 }
