@@ -4,10 +4,12 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TableView?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.InnerShadow?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox alignment="TOP_CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="1280.0" style="-fx-background-color: #008080; -fx-border-width: 12;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainSceneController">
+<VBox alignment="TOP_CENTER" fillWidth="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="894.0" prefWidth="1280.0" style="-fx-background-color: #008080; -fx-border-width: 12; -fx-background-size: 100% 100%;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GUI.MainSceneController">
    <children>
       <HBox alignment="TOP_CENTER" nodeOrientation="LEFT_TO_RIGHT" spacing="12.0" VBox.vgrow="NEVER">
          <children>
@@ -19,8 +21,8 @@
             </VBox>
             <VBox alignment="TOP_CENTER">
                <children>
-                  <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Cache L1 P0, 1" textFill="WHITE" />
-                  <TableView fx:id="L1P01" prefHeight="100.0" prefWidth="579.0" style="-fx-background-color: #11BB9B;" />
+                  <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Cache L1 P1, 0" textFill="WHITE" />
+                  <TableView fx:id="L1P10" prefHeight="100.0" prefWidth="579.0" style="-fx-background-color: #11BB9B;" />
                </children>
             </VBox>
          </children>
@@ -32,8 +34,8 @@
          <children>
             <VBox alignment="TOP_CENTER">
                <children>
-                  <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Cache L1 P1, 0" textFill="WHITE" />
-                  <TableView fx:id="L1P10" prefHeight="100.0" prefWidth="579.0" style="-fx-background-color: #11BB9B;" />
+                  <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Cache L1 P0, 1" textFill="WHITE" />
+                  <TableView fx:id="L1P01" prefHeight="100.0" prefWidth="579.0" style="-fx-background-color: #11BB9B;" />
                </children>
             </VBox>
             <VBox alignment="TOP_CENTER">
@@ -73,9 +75,12 @@
          <children>
             <VBox alignment="TOP_CENTER">
                <children>
-                  <Label fx:id="MEMPRIN" style="-fx-font-size: 20; -fx-font-weight: bold;" text="Memoria Principal" textFill="WHITE" />
-                  <TableView fx:id="L2P01" prefHeight="237.0" prefWidth="579.0" style="-fx-background-color: #11BB9B;" />
+                  <Label style="-fx-font-size: 20; -fx-font-weight: bold;" text="Memoria Principal" textFill="WHITE" />
+                  <TableView fx:id="MEMPRIN" prefHeight="329.0" prefWidth="579.0" style="-fx-background-color: #11BB9B;" />
                </children>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
             </VBox>
          </children>
          <padding>
@@ -83,4 +88,11 @@
          </padding>
       </HBox>
    </children>
+   <effect>
+      <InnerShadow choke="0.33" height="56.15" radius="27.725" width="56.75">
+         <input>
+            <DropShadow />
+         </input>
+      </InnerShadow>
+   </effect>
 </VBox>

@@ -37,7 +37,7 @@ public class InstructionGenerator {
      * @return 1-16 hex string
      */
     private String newMemDir(){
-        final int nummber = this.Binomial(16, 0.625);
+        final int nummber = this.Binomial(16, 0.8);
         final String memDir = Integer.toBinaryString(nummber);
 
         if (memDir.length() == 3){

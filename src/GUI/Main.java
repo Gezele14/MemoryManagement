@@ -3,7 +3,7 @@ package GUI;
 import java.io.InputStream;
 import java.net.URL;
 
-import APP.Cpu;
+import APP.Sistema;
 import javafx.application.Application;
 import javafx.application.Platform;
 import javafx.fxml.FXMLLoader;
@@ -18,6 +18,7 @@ public class Main extends Application {
   public void start(final Stage stage) throws Exception {
     stage.show();
     stage.setTitle("Memory Management");
+    stage.titleProperty();
     stage.setX(320);stage.setY(100);
     stage.setResizable(false);
 
@@ -40,20 +41,19 @@ public class Main extends Application {
     MainSceneController controller = loader.getController();
     stage.setScene(new Scene(root));
 
-    Cpu cpu0 = new Cpu("Processor0", "P0", true); 
-    Cpu cpu1 = new Cpu("Processor1","P1", true);
-        
-    cpu0.start(); cpu1.start();
+    Sistema system = new Sistema("sistema");
+    system.start();
 
     
     Thread thread = new Thread(() -> {
       while(true){
-        Platform.runLater(() -> controller.printMatrix(controller.L1P00,cpu0.getCore0().getL1()));
-        Platform.runLater(() -> controller.printMatrix(controller.L1P01,cpu0.getCore1().getL1()));
-        Platform.runLater(() -> controller.printMatrix(controller.L1P10,cpu1.getCore0().getL1()));
-        Platform.runLater(() -> controller.printMatrix(controller.L1P11,cpu1.getCore1().getL1()));
-        Platform.runLater(() -> controller.printMatrix(controller.L2P0,cpu1.getL2()));
-        Platform.runLater(() -> controller.printMatrix(controller.L2P1,cpu1.getL2()));
+        Platform.runLater(() -> controller.printMatrix(controller.L1P00,system.getCpu0().getCore0().getL1()));
+        Platform.runLater(() -> controller.printMatrix(controller.L1P01,system.getCpu0().getCore1().getL1()));
+        Platform.runLater(() -> controller.printMatrix(controller.L1P10,system.getCpu1().getCore0().getL1()));
+        Platform.runLater(() -> controller.printMatrix(controller.L1P11,system.getCpu1().getCore1().getL1()));
+        Platform.runLater(() -> controller.printMatrix(controller.L2P0,system.getCpu0().getL2()));
+        Platform.runLater(() -> controller.printMatrix(controller.L2P1,system.getCpu1().getL2()));
+        Platform.runLater(() -> controller.printMatrix(controller.MEMPRIN,system.getMemory()));
         try {
           Thread.sleep(500);
         } catch (InterruptedException exc) {
