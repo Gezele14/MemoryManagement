@@ -1,15 +1,23 @@
 package APP;
 
+import java.util.concurrent.Semaphore;
+
+import Logging.Log;
+
 public class Core extends Thread{
     //Atrubutos
     public boolean powerON = false;
     private boolean L1Miss = false;
     private boolean BusWr = false;
     private boolean BusRd = false;;
+    private static Semaphore mutex = new Semaphore(1);
+    private Log log;
+    private String state;
     private String id = "";
     private String fatherId = "";
     private String memDir = "";
     private String data = "";
+    private String logName;
     private String[][] L1 = {{"Bloque", "Coherencia", "Dir. Mem", "Dato"},
                              {"0","","",""},
                              {"1","","",""}};
@@ -20,6 +28,9 @@ public class Core extends Thread{
         super(msg);
         this.id = _id;
         this.fatherId = _fatherId;
+        this.logName = "core"+this.fatherId+"-"+this.id;
+        this.log = new Log(this.logName);
+        log.newInfo("Esto es solo una prueba");
     }
 
     
@@ -29,7 +40,13 @@ public class Core extends Thread{
             String instruction = this.instr.newInstruction(this.fatherId, this.id);
             String[] instrDecoded = this.instrDecoder(instruction);
             System.out.println("Nueva instruccion "+instruction+" generada para "+fatherId+","+id);
+            try {
+                mutex.acquire();
+            } catch (Exception e) {
+                System.out.println(e.getMessage());
+            }
             this.MSIprotocol(instrDecoded);
+            mutex.release();
             
         }
     }
@@ -44,11 +61,29 @@ public class Core extends Thread{
         return instrDecoded;
     }
 
+    public void newLog(String msg){
+        this.log.newInfo(msg);
+
+    }
+
     private boolean instrCheck(String[] instr){
         for (int i = 1; i < this.L1.length; i++) {
             if(instr.length > 3){
                 if(instr[3].equals(this.L1[i][2])){
                     return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    private boolean invalidCheck(String[] instr){
+        for (int i = 1; i < this.L1.length; i++) {
+            if(instr.length > 3){
+                if(instr[3].equals(this.L1[i][2])){
+                   if(L1[i][1].equals("I")){
+                       return false;
+                   }
                 }
             }
         }
@@ -66,35 +101,31 @@ public class Core extends Thread{
         }
     }
 
-    
-
-    private void writeCache(String[] instr){
+    public void invalidCache(String dir){
         for (int i = 1; i < this.L1.length; i++) {
-            if(instr[3].equals(this.L1[i][2])){
-                this.L1[i][1] = "M";
-                this.L1[i][2] = instr[3];
-                this.L1[i][3] = instr[4];
-            }
-        }
-    }
-
-    public void invalidCache(String[] instr){
-        for (int i = 1; i < this.L1.length; i++) {
-            if(instr[3].equals(this.L1[i][2])){
+            if(dir.equals(this.L1[i][2])){
                 this.L1[i][1] = "I";
             }
         }
     }
 
     private void MSIprotocol(String[] instr){
-        
         if(instr[2].equals("WRITE")){
             int i = dirt2int(instr[3]) + 1;
             this.L1[i][1] = "M";
             this.L1[i][2] = instr[3];
             this.L1[i][3] = instr[4];
             System.out.println("Dato escrito en L1 de "+fatherId+","+id);
+            this.memDir = instr[3];
+            this.data = instr[4];
             this.BusWr = true;
+            while(this.BusWr){
+                try{
+                    Thread.sleep(1000);
+                }catch(Exception e){
+                    System.out.println(e.getMessage());
+                }
+            }
             try{
                 Thread.sleep(3000);
             }catch(Exception e){
@@ -111,6 +142,18 @@ public class Core extends Thread{
         }else if (instr[2].equals("READ")){
             if(instrCheck(instr)){
                 System.out.println("Inicio de lectura en L1 de "+fatherId+","+id);
+                if(this.invalidCheck(instr)){
+                    this.memDir = instr[3];
+                    this.L1Miss = true;
+                    while(this.L1Miss){
+                        try{
+                            Thread.sleep(1000);
+                        }catch(Exception e){
+                            System.out.println(e.getMessage());
+                        }
+                    }
+                    this.busWrL1(this.memDir);
+                }
                 try{
                     Thread.sleep(250);
                 }catch(Exception e){
@@ -118,8 +161,8 @@ public class Core extends Thread{
                 }
             }else{
                 System.out.println("Dato no esta en L1 de "+fatherId+","+id);
-                this.L1Miss = true;
                 this.memDir = instr[3];
+                this.L1Miss = true;
                 System.out.println("Trayendo el dato de "+fatherId+","+id+" desde L2");
                 while(this.L1Miss){
                     try{
@@ -198,4 +241,6 @@ public class Core extends Thread{
     public void setL1Miss(boolean l1Miss) {
         L1Miss = l1Miss;
     }    
+
+
 }

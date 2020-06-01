@@ -75,7 +75,16 @@ public class InstructionGenerator {
         final Random r = new Random();
         final int data = r.nextInt(65535);
         
-        return Integer.toHexString(data);
+        String dataStr = Integer.toHexString(data);
+        if (dataStr.length() == 1){
+            return "000"+dataStr;
+        }else if (dataStr.length() == 2){
+            return "00"+dataStr;
+        }else if (dataStr.length() == 3){
+            return "0"+dataStr;
+        }else{
+            return dataStr;
+        }
     }
 
     /**

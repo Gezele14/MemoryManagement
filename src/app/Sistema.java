@@ -76,6 +76,45 @@ public class Sistema extends Thread{
     }
   }
 
+  private void writeManage(){
+    if(this.cpu0.isBusWr()){
+      writeMem(this.cpu0.getMemDir(), this.cpu0.getData(), this.cpu0.getCpuId());
+      this.cpu1.invalidCache(this.cpu0.getMemDir());
+      try{
+        Thread.sleep(1000);
+      }catch(Exception e){
+          System.out.println(e.getMessage());
+      }
+      this.cpu0.setBusWr(false);
+      
+    }else if(this.cpu1.isBusWr()){
+      writeMem(cpu1.getMemDir(), this.cpu1.getData(), this.cpu1.getCpuId());
+      this.cpu0.invalidCache(this.cpu1.getMemDir());
+      try{
+        Thread.sleep(1000);
+      }catch(Exception e){
+          System.out.println(e.getMessage());
+      }
+      this.cpu1.setBusWr(false);
+      
+    }
+  }
+
+  private void writeMem(String dir, String data, String reqId){
+    for (int i = 1; i < Memory.length; i++) {
+      if(dir.equals(Memory[i][0])){
+        if(this.Memory[i][1].equals("")){
+          Memory[i][1] = reqId;
+        } else if(this.Memory[i][1].equals("P0")){
+          Memory[i][1] += ", P1";
+        } else if(this.Memory[i][1].equals("P1")){
+          Memory[i][1] += ", P0";
+        }
+        Memory[i][2] = data; 
+      }
+    }
+  }
+
   private void readMem(String dir, String reqId){
     for (int i = 1; i < Memory.length; i++){
       if(dir.equals(this.Memory[i][0])){
@@ -102,8 +141,10 @@ public class Sistema extends Thread{
       } catch (Exception e) {
         System.out.println(e.getMessage());
       }
+      this.writeManage();
       this.caheManage();
       mutex.release();
+      
     }
   }
 

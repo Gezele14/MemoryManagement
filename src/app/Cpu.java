@@ -7,6 +7,7 @@ public class Cpu extends Thread{
     private boolean L2Miss;
     public boolean powerON;
     private boolean isFromL2 = false;
+    private boolean BusWr = false;
     private static Semaphore mutex = new Semaphore(1);
     private String id = "";
     private Core core0;
@@ -94,12 +95,71 @@ public class Cpu extends Thread{
         }
     }
 
+    private void busWrManager(){
+        if(this.core0.isBusWr()){
+            this.writeCache(core0.getMemDir(), core0.getData(), core0.getCoreId());
+            core1.invalidCache(core0.getMemDir());
+            this.memDir = core0.getMemDir();
+            this.Data = core0.getData();
+            this.BusWr = true;
+            while(this.BusWr){
+                try{
+                    Thread.sleep(1000);
+                }catch(Exception e){
+                    System.out.println(e.getMessage());
+                }
+            }
+            this.core0.setBusWr(false);
+
+        }else if(this.core1.isBusWr()){
+            this.writeCache(core1.getMemDir(), core1.getData(), core1.getCoreId());
+            core0.invalidCache(core1.getMemDir());
+            this.memDir = core1.getMemDir();
+            this.Data = core1.getData();
+            this.BusWr = true;
+            while(this.BusWr){
+                try{
+                    Thread.sleep(1000);
+                }catch(Exception e){
+                    System.out.println(e.getMessage());
+                }
+            }
+            this.core1.setBusWr(false);
+
+        }
+    }
+
+    private void writeCache(String dir, String Data, String coreId){
+        String bloque = Integer.toString(Integer.parseInt(dir,2)%4);
+        for (int i = 1; i < this.L2.length; i++) {
+            if(bloque.equals(this.L2[i][0])){
+                this.L2[i][1] = "DM";
+                this.L2[i][2] = this.id+","+coreId;
+                this.L2[i][3] = dir;
+                this.L2[i][4] = Data;
+                break;
+            }
+        }
+
+    }
+
     private void writeL2(String[] row){
         for (int i = 1; i < this.L2.length; i++) {
             if(row[0].equals(L2[i][0])){
                 this.L2[i] = row;
             }
         }
+    }
+
+    public void invalidCache(String dir){
+        for (int i = 1; i < this.L2.length; i++) {
+            if(dir.equals(this.L2[i][3])){
+                this.L2[i][1] = "DI";
+                break;
+            }
+        }
+        this.core0.invalidCache(dir);
+        this.core1.invalidCache(dir);
     }
 
     public String getDataDir(String dir){
@@ -134,7 +194,7 @@ public class Cpu extends Thread{
 
     public boolean memDirCheck(String dir){
         for (int i = 1; i < this.L2.length; i++) {
-            if(dir.equals(this.L2[i][3])){
+            if(dir.equals(this.L2[i][3]) && !this.L2[i][1].equals("DI")){
                 this.Data = this.L2[i][4];
                 return true;
             }
@@ -168,9 +228,10 @@ public class Cpu extends Thread{
         while(this.powerON){
             try {
                 mutex.acquire();
-              } catch (Exception e) {
+            } catch (Exception e) {
                 System.out.println(e.getMessage());
-              }
+            }
+            this.busWrManager();
             this.l1MisssManager();
             mutex.release();
         }
@@ -246,6 +307,14 @@ public class Cpu extends Thread{
 
     public void setFromL2(boolean isFromL2) {
         this.isFromL2 = isFromL2;
+    }
+
+    public boolean isBusWr() {
+        return BusWr;
+    }
+
+    public void setBusWr(boolean busWr) {
+        BusWr = busWr;
     }
 
 }
