@@ -73,17 +73,19 @@ public class InstructionGenerator {
      */
     private String newData(){
         final Random r = new Random();
-        final int data = r.nextInt(65535);
+        final int data1 = r.nextInt(65535);
+        final int data2 = r.nextInt(65535);
         
-        String dataStr = Integer.toHexString(data);
-        if (dataStr.length() == 1){
-            return "000"+dataStr;
-        }else if (dataStr.length() == 2){
-            return "00"+dataStr;
-        }else if (dataStr.length() == 3){
-            return "0"+dataStr;
+        String dataStr1 = Integer.toHexString(data1);
+        String dataStr2 = Integer.toHexString(data2);
+        if (dataStr1.length() == 1){
+            return "000"+dataStr1+dataStr2;
+        }else if (dataStr1.length() == 2){
+            return "00"+dataStr1+dataStr2;
+        }else if (dataStr1.length() == 3){
+            return "0"+dataStr1+dataStr2;
         }else{
-            return dataStr;
+            return dataStr1+dataStr2;
         }
     }
 

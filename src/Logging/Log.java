@@ -1,12 +1,7 @@
 package Logging;
 
-import java.io.FileInputStream;
 import java.io.IOException;
-import java.util.logging.ConsoleHandler;
 import java.util.logging.FileHandler;
-import java.util.logging.Handler;
-import java.util.logging.Level;
-import java.util.logging.LogManager;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
@@ -33,10 +28,10 @@ public class Log {
 
   //Methods
   public void newInfo(String msg){
-    this.Log.info(msg);
+    this.Log.info(msg+"\n");
   }
 
   public void newWarn(String msg){
-    this.Log.warning(msg);
+    this.Log.warning(msg+"\n");
   }
 }

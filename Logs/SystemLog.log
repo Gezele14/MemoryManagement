@@ -1,0 +1,4350 @@
+jun 02, 2020 2:44:59 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:44:59 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0101 generada para P0,1
+
+jun 02, 2020 2:44:59 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0110 generada para P0,0
+
+jun 02, 2020 2:44:59 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;WRITE;1111;a5bdc848 generada para P1,0
+
+jun 02, 2020 2:44:59 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:45:02 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:45:03 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,0
+
+jun 02, 2020 2:45:06 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:45:06 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:45:06 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:45:06 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:45:07 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:07 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:45:07 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:07 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:07 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:07 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en L2
+
+jun 02, 2020 2:45:08 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:45:08 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:45:08 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:45:08 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:45:08 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:45:08 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:08 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:45:11 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:45:11 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1010 generada para P1,1
+
+jun 02, 2020 2:45:12 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:45:12 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:45:12 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la memoria
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en L2
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:13 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0101 generada para P0,0
+
+jun 02, 2020 2:45:14 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:15 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:45:15 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:45:15 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1010 generada para P1,1
+
+jun 02, 2020 2:45:15 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,1
+
+jun 02, 2020 2:45:16 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:45:16 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:45:16 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:45:16 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:45:16 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,0
+
+jun 02, 2020 2:45:17 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:45:17 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:45:17 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:45:18 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;0110 generada para P1,0
+
+jun 02, 2020 2:45:19 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:45:19 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:45:19 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:45:19 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:45:19 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1010 generada para P0,0
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:45:21 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:45:22 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:45:22 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:45:22 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:45:22 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:45:22 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1110 generada para P1,0
+
+jun 02, 2020 2:45:22 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0111 generada para P0,0
+
+jun 02, 2020 2:45:23 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:45:23 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:45:23 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:45:23 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;1100;e8c299d6 generada para P1,1
+
+jun 02, 2020 2:45:23 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:45:23 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:45:23 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:45:23 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:45:24 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:45:24 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:45:24 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:45:24 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:45:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:45:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:45:27 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:45:28 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1000 generada para P0,0
+
+jun 02, 2020 2:45:29 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:45:31 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:45:31 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:45:31 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:45:31 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:31 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:45:31 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:45:31 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:45:31 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:45:31 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:45:32 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:45:32 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:45:32 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1000 generada para P0,0
+
+jun 02, 2020 2:45:32 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,0
+
+jun 02, 2020 2:45:32 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:45:32 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0111 generada para P1,1
+
+jun 02, 2020 2:45:33 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:45:33 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1001 generada para P1,0
+
+jun 02, 2020 2:45:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:45:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:45:34 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:45:34 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:45:34 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:45:34 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:45:34 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:34 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:34 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:45:35 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:45:36 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:45:36 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:45:36 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1111 generada para P1,0
+
+jun 02, 2020 2:45:38 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:45:38 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1110 generada para P0,0
+
+jun 02, 2020 2:45:38 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:45:38 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:45:38 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:45:39 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:45:39 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:45:39 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:45:39 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:45:39 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:45:39 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:45:40 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;0110;a4a52db9 generada para P1,1
+
+jun 02, 2020 2:45:40 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;WRITE;1011;68faa110 generada para P0,1
+
+jun 02, 2020 2:45:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:45:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,1
+
+jun 02, 2020 2:45:40 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:45:40 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:45:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:45:40 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:45:43 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:45:43 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:45:44 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:45:45 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:45:45 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:45:48 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:45:48 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1100 generada para P1,0
+
+jun 02, 2020 2:45:49 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:45:49 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:45:49 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:45:50 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:45:51 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:45:51 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:45:51 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:45:51 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:45:53 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:45:53 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:45:53 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:45:54 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,1
+
+jun 02, 2020 2:45:54 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;WRITE;0111;b1c74a9 generada para P0,1
+
+jun 02, 2020 2:45:54 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,1
+
+jun 02, 2020 2:45:54 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:45:54 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:45:54 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:45:54 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0101 generada para P0,0
+
+jun 02, 2020 2:45:55 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:45:55 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;WRITE;0010;7c7b233d generada para P1,0
+
+jun 02, 2020 2:45:55 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,0
+
+jun 02, 2020 2:45:56 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:45:56 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:45:57 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:45:57 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;1001;a14f1e84 generada para P1,1
+
+jun 02, 2020 2:45:57 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:45:59 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:45:59 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en L2
+
+jun 02, 2020 2:45:59 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:45:59 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:45:59 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:45:59 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:45:59 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:46:03 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,1
+
+jun 02, 2020 2:46:03 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:46:03 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:46:03 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:46:03 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:46:03 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:46:04 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:46:04 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:46:07 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:46:07 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:46:07 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:46:07 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:46:07 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1001 generada para P0,0
+
+jun 02, 2020 2:46:08 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,0
+
+jun 02, 2020 2:46:08 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1000 generada para P1,0
+
+jun 02, 2020 2:46:09 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:46:09 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:46:09 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:46:09 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:10 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:46:10 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:46:10 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:46:10 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:46:10 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:46:10 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:46:11 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:46:11 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:46:11 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1001 generada para P0,0
+
+jun 02, 2020 2:46:11 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:46:11 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,0
+
+jun 02, 2020 2:46:11 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:46:11 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:46:11 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1011 generada para P0,1
+
+jun 02, 2020 2:46:11 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:46:12 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:46:12 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:46:12 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;0111;3b8e9d9c generada para P1,1
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:46:13 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:46:16 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:46:16 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1101 generada para P1,0
+
+jun 02, 2020 2:46:17 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:46:17 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;WRITE;0101;d24d5f9 generada para P0,0
+
+jun 02, 2020 2:46:17 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,0
+
+jun 02, 2020 2:46:18 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:46:18 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:46:18 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:46:18 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:46:18 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:46:18 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:46:18 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en L2
+
+jun 02, 2020 2:46:18 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:46:19 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:46:19 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:46:19 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:46:19 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:22 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:46:22 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;1110;6658cd1d generada para P1,1
+
+jun 02, 2020 2:46:22 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:46:23 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:46:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,0
+
+jun 02, 2020 2:46:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:46:27 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:46:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:46:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:46:27 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:46:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1010 generada para P0,1
+
+jun 02, 2020 2:46:29 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:46:29 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:46:29 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:46:29 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:29 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:29 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:30 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:46:30 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:46:30 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:46:30 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:46:31 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:46:31 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:46:31 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0110 generada para P0,0
+
+jun 02, 2020 2:46:31 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:46:31 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:32 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:46:32 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:46:32 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:46:33 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:46:33 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:46:33 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:46:33 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:33 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:46:33 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:46:34 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:46:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:46:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;WRITE;1010;7f0b28e9 generada para P0,0
+
+jun 02, 2020 2:46:34 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,0
+
+jun 02, 2020 2:46:34 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en L2
+
+jun 02, 2020 2:46:34 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:46:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:46:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1011 generada para P0,1
+
+jun 02, 2020 2:46:34 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,1
+
+jun 02, 2020 2:46:35 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:46:35 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1010 generada para P1,0
+
+jun 02, 2020 2:46:36 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:46:36 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:46:36 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:46:36 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:46:36 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:46:36 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:46:37 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:46:37 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:46:39 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:46:39 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:46:39 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:46:39 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;0100;19b96612 generada para P1,1
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1010 generada para P1,0
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,0
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0111 generada para P0,1
+
+jun 02, 2020 2:46:40 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,0
+
+jun 02, 2020 2:46:41 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,0
+
+jun 02, 2020 2:46:43 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:46:43 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:46:43 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;0011 generada para P1,0
+
+jun 02, 2020 2:46:43 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:46:43 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,0
+
+jun 02, 2020 2:46:43 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1000 generada para P0,0
+
+jun 02, 2020 2:46:45 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:46:45 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:46:45 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:46:45 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:46:46 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0001 generada para P0,0
+
+jun 02, 2020 2:46:47 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:46:47 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:46:47 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:46:47 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:46:47 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:46:47 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:46:47 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:46:47 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:48 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:46:48 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:46:48 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:46:48 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:46:48 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:46:48 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:46:49 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:46:49 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:46:49 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:46:49 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:46:49 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:46:50 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;1000;6577a08 generada para P1,1
+
+jun 02, 2020 2:46:50 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:46:50 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:50 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:51 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:46:51 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0101 generada para P0,1
+
+jun 02, 2020 2:46:51 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:46:51 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:46:51 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:53 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:46:53 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:46:53 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:46:53 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;WRITE;1011;da548416 generada para P0,0
+
+jun 02, 2020 2:46:53 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,0
+
+jun 02, 2020 2:46:55 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en L2
+
+jun 02, 2020 2:46:55 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:46:55 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:46:55 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:46:55 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:46:59 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:46:59 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1110 generada para P1,1
+
+jun 02, 2020 2:46:59 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:46:59 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:46:59 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:47:00 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:47:01 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:47:01 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:47:01 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:01 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:47:01 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:47:01 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:47:01 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:47:02 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:47:02 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:47:02 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:47:02 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:47:03 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:47:03 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:47:03 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:47:03 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,0
+
+jun 02, 2020 2:47:03 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0100 generada para P0,0
+
+jun 02, 2020 2:47:05 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:47:05 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0001 generada para P0,1
+
+jun 02, 2020 2:47:05 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:47:06 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:47:06 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:47:06 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:06 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:47:06 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:47:06 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:47:06 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1010 generada para P1,0
+
+jun 02, 2020 2:47:07 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,0
+
+jun 02, 2020 2:47:08 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:47:08 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:47:08 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;WRITE;1111;e3e3306f generada para P0,0
+
+jun 02, 2020 2:47:08 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,0
+
+jun 02, 2020 2:47:08 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en L2
+
+jun 02, 2020 2:47:08 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:47:08 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:47:08 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:08 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0100 generada para P0,1
+
+jun 02, 2020 2:47:09 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:47:09 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;0101 generada para P1,0
+
+jun 02, 2020 2:47:10 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:47:10 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1111 generada para P1,1
+
+jun 02, 2020 2:47:10 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:47:10 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:47:11 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:47:11 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:47:12 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:47:12 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:47:13 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:47:14 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:47:14 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:47:14 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:47:17 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,0
+
+jun 02, 2020 2:47:17 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:47:17 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:47:17 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:47:17 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:47:17 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:47:17 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0000 generada para P0,1
+
+jun 02, 2020 2:47:17 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:47:18 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:47:18 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1101 generada para P1,0
+
+jun 02, 2020 2:47:19 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:47:19 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:47:19 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:47:19 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:19 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:19 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:20 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:47:20 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:47:20 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:47:20 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:20 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:47:20 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:47:20 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0111 generada para P0,0
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;0001 generada para P1,0
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:47:21 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1000 generada para P1,1
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:47:23 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:47:24 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:47:25 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:47:25 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:47:25 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:47:25 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0001 generada para P0,1
+
+jun 02, 2020 2:47:25 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:47:25 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:25 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:47:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1111 generada para P0,1
+
+jun 02, 2020 2:47:28 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:47:28 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:47:28 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0101 generada para P0,0
+
+jun 02, 2020 2:47:28 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;WRITE;0010;329532d4 generada para P1,0
+
+jun 02, 2020 2:47:28 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,0
+
+jun 02, 2020 2:47:28 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en L2
+
+jun 02, 2020 2:47:28 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:47:29 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:47:29 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0111 generada para P1,1
+
+jun 02, 2020 2:47:29 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:47:29 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:47:30 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:47:30 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:47:31 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:47:31 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:47:33 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:47:33 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:47:33 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:47:34 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:47:34 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:47:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:47:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1101 generada para P1,1
+
+jun 02, 2020 2:47:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1011 generada para P0,1
+
+jun 02, 2020 2:47:34 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:47:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:47:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0000 generada para P0,0
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:47:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,0
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1011 generada para P1,0
+
+jun 02, 2020 2:47:37 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:47:38 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:47:38 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:47:38 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:47:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:47:40 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:47:40 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:47:40 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:40 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:47:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:47:41 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:47:41 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:47:41 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:47:41 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:47:41 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:47:41 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:47:41 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1110 generada para P1,1
+
+jun 02, 2020 2:47:41 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0111 generada para P0,1
+
+jun 02, 2020 2:47:42 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:47:42 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1100 generada para P0,0
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:43 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:47:44 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:47:45 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:47:45 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:47:45 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:47:45 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:47:46 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:47:46 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;WRITE;1001;1a22c27a generada para P0,0
+
+jun 02, 2020 2:47:46 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,0
+
+jun 02, 2020 2:47:46 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en L2
+
+jun 02, 2020 2:47:46 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:47:48 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:47:48 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:47:48 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:47:49 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:47:49 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:47:49 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:47:49 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:47:49 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:47:49 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:47:52 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:47:52 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1111 generada para P1,1
+
+jun 02, 2020 2:47:53 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:47:53 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0110 generada para P0,1
+
+jun 02, 2020 2:47:53 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:47:53 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1110 generada para P1,0
+
+jun 02, 2020 2:47:54 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:47:54 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:47:54 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:47:54 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:54 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:54 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,0
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1011 generada para P0,0
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:47:55 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:47:56 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:47:56 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0000 generada para P1,1
+
+jun 02, 2020 2:47:56 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:47:56 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:47:56 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0011 generada para P0,1
+
+jun 02, 2020 2:47:56 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:47:56 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:47:56 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1000 generada para P1,0
+
+jun 02, 2020 2:47:57 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:57 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:47:57 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:47:57 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:57 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:47:57 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:47:58 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:47:58 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:47:58 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:47:58 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:58 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:58 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:47:58 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:47:58 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:47:58 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:47:59 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0100 generada para P1,1
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;WRITE;1001;a848eb72 generada para P1,0
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,0
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en L2
+
+jun 02, 2020 2:48:00 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:48:02 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:48:02 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:48:03 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:48:03 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:03 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:04 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:48:04 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1011 generada para P0,1
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:48:06 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0101 generada para P1,1
+
+jun 02, 2020 2:48:07 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:07 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:07 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0111 generada para P0,1
+
+jun 02, 2020 2:48:08 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:48:08 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1101 generada para P0,0
+
+jun 02, 2020 2:48:08 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:48:08 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:48:08 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:48:08 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:48:08 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:48:09 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:48:09 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:48:09 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:48:09 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:48:09 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:09 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:09 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:09 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:48:09 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,0
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;1100;a855c051 generada para P1,1
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:10 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0100 generada para P0,1
+
+jun 02, 2020 2:48:11 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:48:11 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:48:11 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:11 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:12 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:48:13 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:48:14 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:48:14 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1001 generada para P1,0
+
+jun 02, 2020 2:48:14 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,0
+
+jun 02, 2020 2:48:15 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:48:15 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1001 generada para P0,0
+
+jun 02, 2020 2:48:15 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:48:15 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:15 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:15 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:16 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:16 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:16 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:48:16 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:48:16 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:48:16 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:48:16 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:48:17 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:17 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:48:17 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:48:17 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:17 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:48:17 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:48:18 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:48:18 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:48:18 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:18 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:19 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:48:19 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:48:19 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:48:20 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:48:20 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:48:20 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:48:20 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:48:20 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1100 generada para P0,1
+
+jun 02, 2020 2:48:22 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:48:22 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:48:22 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:22 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:22 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:22 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:22 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:48:22 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1000 generada para P0,0
+
+jun 02, 2020 2:48:23 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:48:23 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:48:23 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:48:23 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:23 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:23 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0101 generada para P0,1
+
+jun 02, 2020 2:48:24 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:48:24 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1101 generada para P1,0
+
+jun 02, 2020 2:48:24 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:48:24 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:48:24 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:48:25 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:25 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:48:25 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:48:25 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:48:26 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1010 generada para P0,1
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;1110;9698451 generada para P1,1
+
+jun 02, 2020 2:48:27 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:48:28 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:48:28 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:48:28 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:48:28 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:48:28 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:48:28 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:48:29 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:48:30 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:48:31 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:48:31 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0011 generada para P0,0
+
+jun 02, 2020 2:48:32 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:48:32 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;0110 generada para P1,0
+
+jun 02, 2020 2:48:33 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:48:33 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:48:33 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:48:33 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:48:33 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:48:34 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:48:35 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:48:35 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:48:35 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;WRITE;0111;f676a8a1 generada para P1,0
+
+jun 02, 2020 2:48:35 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,0
+
+jun 02, 2020 2:48:35 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en L2
+
+jun 02, 2020 2:48:35 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:48:37 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:48:37 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0101 generada para P1,1
+
+jun 02, 2020 2:48:37 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,1
+
+jun 02, 2020 2:48:38 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:48:38 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1001 generada para P0,1
+
+jun 02, 2020 2:48:38 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:48:38 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1100 generada para P0,0
+
+jun 02, 2020 2:48:39 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:48:39 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1100 generada para P1,1
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:40 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;1110;060c199c generada para P1,1
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0110 generada para P0,0
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:48:41 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:48:43 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:48:43 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:48:44 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,0
+
+jun 02, 2020 2:48:44 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:48:44 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:48:45 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:48:45 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1100 generada para P0,1
+
+jun 02, 2020 2:48:46 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:48:46 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:46 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:48:46 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:47 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:48 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:48 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:48 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1011 generada para P0,1
+
+jun 02, 2020 2:48:48 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:48:48 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:48:48 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:48:50 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:48:50 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:48:50 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:48:50 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:48:50 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:48:50 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:50 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:50 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:50 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:48:51 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:48:51 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:51 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:51 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:48:52 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:52 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1100 generada para P0,1
+
+jun 02, 2020 2:48:52 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:52 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:48:52 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;WRITE;0111;9a505493 generada para P1,0
+
+jun 02, 2020 2:48:52 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,0
+
+jun 02, 2020 2:48:52 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en L2
+
+jun 02, 2020 2:48:52 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:48:54 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:48:54 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:48:54 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:48:54 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:48:54 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:48:54 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:48:55 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:48:56 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:48:56 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:48:58 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:48:58 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0110 generada para P0,1
+
+jun 02, 2020 2:48:58 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:48:58 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:48:58 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:49:00 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:49:00 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;WRITE;1001;7092ebb4 generada para P0,0
+
+jun 02, 2020 2:49:00 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,0
+
+jun 02, 2020 2:49:00 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en L2
+
+jun 02, 2020 2:49:00 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:49:00 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:49:00 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:49:02 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,0
+
+jun 02, 2020 2:49:02 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1101 generada para P1,0
+
+jun 02, 2020 2:49:02 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:49:02 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;0011;c43cd752 generada para P1,1
+
+jun 02, 2020 2:49:02 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:49:04 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:49:04 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:49:05 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:49:09 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,0
+
+jun 02, 2020 2:49:09 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1101 generada para P0,0
+
+jun 02, 2020 2:49:09 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:49:09 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;WRITE;0110;bbfd2eeb generada para P0,1
+
+jun 02, 2020 2:49:09 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,1
+
+jun 02, 2020 2:49:10 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:49:10 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:10 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:49:10 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:49:10 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:49:10 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:49:11 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:49:11 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:49:11 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:49:11 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:11 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:49:11 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:49:13 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:49:13 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;1101;a272e224 generada para P1,1
+
+jun 02, 2020 2:49:13 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:49:15 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:49:15 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:49:15 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:15 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:49:15 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:49:15 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:49:15 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:49:15 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:15 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:16 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:49:16 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:49:16 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:49:16 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:49:18 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,1
+
+jun 02, 2020 2:49:18 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1111 generada para P0,1
+
+jun 02, 2020 2:49:19 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:49:19 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:49:19 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:20 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:49:20 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0110 generada para P0,0
+
+jun 02, 2020 2:49:20 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,0
+
+jun 02, 2020 2:49:20 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:49:20 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:49:20 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,0
+
+jun 02, 2020 2:49:21 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:49:21 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:49:21 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;WRITE;1011;6f21aa63 generada para P0,1
+
+jun 02, 2020 2:49:21 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,1
+
+jun 02, 2020 2:49:21 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,0
+
+jun 02, 2020 2:49:21 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,0
+
+jun 02, 2020 2:49:22 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:49:22 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:49:22 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:49:23 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:49:23 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1100 generada para P1,0
+
+jun 02, 2020 2:49:23 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:49:23 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:49:23 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:49:25 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:49:25 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:49:26 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:49:26 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:49:26 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:49:26 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:49:27 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:49:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:49:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:49:27 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:49:28 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1101 generada para P1,1
+
+jun 02, 2020 2:49:28 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,1
+
+jun 02, 2020 2:49:30 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:49:30 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;1100 generada para P1,1
+
+jun 02, 2020 2:49:30 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:49:30 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:49:30 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:49:30 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,1
+
+jun 02, 2020 2:49:30 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:49:30 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:49:31 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:49:31 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;WRITE;0100;4412428 generada para P1,0
+
+jun 02, 2020 2:49:31 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,0
+
+jun 02, 2020 2:49:31 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en L2
+
+jun 02, 2020 2:49:31 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:49:32 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:49:32 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:49:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:49:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0010 generada para P0,0
+
+jun 02, 2020 2:49:34 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:49:34 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:49:34 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P1,0 en Memoria
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:49:36 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:49:37 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:49:37 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:49:37 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:49:37 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:49:37 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:49:37 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:49:37 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:49:37 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:49:38 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:49:38 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:49:38 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:49:40 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,0
+
+jun 02, 2020 2:49:40 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;0111 generada para P1,0
+
+jun 02, 2020 2:49:41 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:49:41 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:49:41 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:49:41 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:49:41 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:49:41 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:49:42 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:49:42 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:49:42 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:49:42 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:42 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:49:42 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:49:43 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:49:43 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1100 generada para P0,1
+
+jun 02, 2020 2:49:43 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:49:43 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:49:43 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:49:43 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0010 generada para P1,1
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:49:45 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1111 generada para P0,0
+
+jun 02, 2020 2:49:46 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:49:46 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:49:46 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1100 generada para P0,1
+
+jun 02, 2020 2:49:46 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,1
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:49:47 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1010 generada para P1,0
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0110 generada para P0,1
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0001 generada para P1,1
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;WRITE;0001;a646580b generada para P0,0
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,0
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en L2
+
+jun 02, 2020 2:49:48 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:49:49 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:49:49 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:49:50 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:49:50 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:49:50 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:49:50 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: Escribiendo el dato de P0,0 en Memoria
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:49:53 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:49:54 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:49:57 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,0
+
+jun 02, 2020 2:49:57 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1100 generada para P0,0
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;WRITE;0001;5798f4a1 generada para P1,1
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P1,1
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:49:58 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:50:00 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:50:00 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:50:02 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:50:02 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;0101 generada para P1,0
+
+jun 02, 2020 2:50:02 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:50:02 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:50:02 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:50:03 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:50:03 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:03 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:50:04 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:50:04 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:50:04 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:50:04 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:50:04 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:50:04 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:50:04 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:50:05 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:50:05 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:50:05 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:50:05 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0011 generada para P0,0
+
+jun 02, 2020 2:50:05 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:50:05 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:50:05 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:50:06 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:50:06 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1010 generada para P0,1
+
+jun 02, 2020 2:50:07 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:50:07 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:50:07 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:50:07 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:07 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:50:07 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:50:07 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P1,1
+
+jun 02, 2020 2:50:07 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0111 generada para P1,1
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1100 generada para P0,0
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,0
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,0
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:08 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:09 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:50:09 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1010 generada para P1,0
+
+jun 02, 2020 2:50:09 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,0
+
+jun 02, 2020 2:50:09 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:50:09 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:50:09 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;1010 generada para P0,1
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,0
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P0,1
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:50:10 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:50:11 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:50:11 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:50:11 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:50:11 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:50:11 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:50:11 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;1100 generada para P1,0
+
+jun 02, 2020 2:50:12 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:50:12 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;CALC generada para P0,1
+
+jun 02, 2020 2:50:12 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,1
+
+jun 02, 2020 2:50:13 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:50:13 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:50:13 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:50:13 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:50:13 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:50:13 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:50:14 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:50:14 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:50:15 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:50:15 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:50:15 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,1
+
+jun 02, 2020 2:50:15 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:50:15 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0100 generada para P1,1
+
+jun 02, 2020 2:50:15 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:50:15 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:50:16 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,1
+
+jun 02, 2020 2:50:16 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0011 generada para P0,1
+
+jun 02, 2020 2:50:17 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:50:17 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:50:17 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:50:18 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:50:18 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:50:18 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:50:18 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:18 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:18 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:18 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:50:18 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:50:18 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0011 generada para P1,1
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;CALC generada para P0,0
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,1 con el dato leido
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,1
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;WRITE;1010;a16ee5f6 generada para P0,1
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Dato escrito en L1 de P0,1
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P0,0
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P1,0
+
+jun 02, 2020 2:50:19 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;0010 generada para P1,0
+
+jun 02, 2020 2:50:20 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,1
+
+jun 02, 2020 2:50:20 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,1 desde L2
+
+jun 02, 2020 2:50:21 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:50:21 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:50:23 PM Logging.Log newInfo
+INFORMACIÓN: Fin de calculo en P0,0
+
+jun 02, 2020 2:50:23 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0101 generada para P0,0
+
+jun 02, 2020 2:50:24 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:50:24 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:50:24 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:50:24 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:50:24 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:50:24 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:50:24 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:50:24 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;READ;0111 generada para P1,0
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,1 con el dato leido
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;READ;0011 generada para P1,1
+
+jun 02, 2020 2:50:25 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de lectura en L1 de P1,1
+
+jun 02, 2020 2:50:26 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:50:26 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P1,0
+
+jun 02, 2020 2:50:26 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:50:26 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P1,0 desde L2
+
+jun 02, 2020 2:50:26 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;1111 generada para P0,0
+
+jun 02, 2020 2:50:26 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en L2
+
+jun 02, 2020 2:50:26 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P1,0 no está en L2
+
+jun 02, 2020 2:50:26 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P1,0 en la otra L2
+
+jun 02, 2020 2:50:26 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P1,0 traido desde la otra L2
+
+jun 02, 2020 2:50:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,1
+
+jun 02, 2020 2:50:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;1;CALC generada para P1,1
+
+jun 02, 2020 2:50:27 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,1
+
+jun 02, 2020 2:50:27 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P1,0 con el dato leido
+
+jun 02, 2020 2:50:27 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P1,0
+
+jun 02, 2020 2:50:27 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P1;0;CALC generada para P1,0
+
+jun 02, 2020 2:50:28 PM Logging.Log newInfo
+INFORMACIÓN: Inicio de calculo en P1,0
+
+jun 02, 2020 2:50:28 PM Logging.Log newInfo
+INFORMACIÓN: Fin de escritura en P0,1
+
+jun 02, 2020 2:50:28 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;1;READ;0100 generada para P0,1
+
+jun 02, 2020 2:50:28 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:50:29 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,0 desde L2
+
+jun 02, 2020 2:50:29 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en L2
+
+jun 02, 2020 2:50:29 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:29 PM Logging.Log newInfo
+INFORMACIÓN: Buscando el dato de P0,0 en la otra L2
+
+jun 02, 2020 2:50:29 PM Logging.Log newInfo
+INFORMACIÓN: Dato de P0,0 traido desde la otra L2
+
+jun 02, 2020 2:50:30 PM Logging.Log newInfo
+INFORMACIÓN: Actualizando L1 de P0,0 con el dato leido
+
+jun 02, 2020 2:50:30 PM Logging.Log newInfo
+INFORMACIÓN: Fin de lectura en L1 de P0,0
+
+jun 02, 2020 2:50:30 PM Logging.Log newInfo
+INFORMACIÓN: Nueva instruccion P0;0;READ;0001 generada para P0,0
+
+jun 02, 2020 2:50:30 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,1
+
+jun 02, 2020 2:50:30 PM Logging.Log newInfo
+INFORMACIÓN: Trayendo el dato de P0,1 desde L2
+
+jun 02, 2020 2:50:30 PM Logging.Log newInfo
+INFORMACIÓN: Dato no esta en L1 de P0,0
+
+jun 02, 2020 2:50:30 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:30 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+
+jun 02, 2020 2:50:30 PM Logging.Log newInfo
+INFORMACIÓN: El dato de P0,0 no está en L2
+

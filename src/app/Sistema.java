@@ -81,7 +81,7 @@ public class Sistema extends Thread{
       writeMem(this.cpu0.getMemDir(), this.cpu0.getData(), this.cpu0.getCpuId());
       this.cpu1.invalidCache(this.cpu0.getMemDir());
       try{
-        Thread.sleep(1000);
+        Thread.sleep(5000);
       }catch(Exception e){
           System.out.println(e.getMessage());
       }
@@ -91,7 +91,7 @@ public class Sistema extends Thread{
       writeMem(cpu1.getMemDir(), this.cpu1.getData(), this.cpu1.getCpuId());
       this.cpu0.invalidCache(this.cpu1.getMemDir());
       try{
-        Thread.sleep(1000);
+        Thread.sleep(5000);
       }catch(Exception e){
           System.out.println(e.getMessage());
       }
@@ -103,6 +103,7 @@ public class Sistema extends Thread{
   private void writeMem(String dir, String data, String reqId){
     for (int i = 1; i < Memory.length; i++) {
       if(dir.equals(Memory[i][0])){
+        Memory[i][1] = "";
         if(this.Memory[i][1].equals("")){
           Memory[i][1] = reqId;
         } else if(this.Memory[i][1].equals("P0")){

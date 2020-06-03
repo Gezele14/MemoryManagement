@@ -37,13 +37,16 @@ public class Cpu extends Thread{
 
     private void l1MisssManager(){
         if(core0.isL1Miss()){
-            System.out.println("Buscando el dato de "+id+","+core0.getCoreId()+" en L2");
+            this.core0.setCoreState("Buscando el dato de "+id+","+core0.getCoreId()+" en L2");
+            this.core0.newLog(this.core0.getCoreState());
             this.memDir = core0.getMemDir();
             if(!this.memDirCheck(this.memDir)){
-                System.out.println("El dato de "+id+","+core0.getCoreId()+" no está en L2");
+                this.core0.setCoreState("El dato de "+id+","+core0.getCoreId()+" no está en L2");
+                this.core0.newLog(this.core0.getCoreState());
                 this.L2Miss = true;
                 this.reqId = core0.getCoreId();
-                System.out.println("Buscando el dato de "+id+","+core0.getCoreId()+" en la otra L2");
+                this.core0.setCoreState("Buscando el dato de "+id+","+core0.getCoreId()+" en la otra L2");
+                this.core0.newLog(this.core0.getCoreState());
                 while(this.L2Miss){
                     try{
                         Thread.sleep(1000);
@@ -52,9 +55,19 @@ public class Cpu extends Thread{
                     }
                 }
                 if(this.isFromL2){
+                    this.core0.setCoreState("Dato de "+id+","+core0.getCoreId()+" traido desde la otra L2");
+                    this.core0.newLog(this.core0.getCoreState());
                     this.core0.setData(this.getL2Data(this.memDir));
                 }else{
-                    System.out.println("Escribiendo el dato de "+id+","+core0.getCoreId()+" en L2");
+                    this.core0.setCoreState("Dato de "+id+","+core0.getCoreId()+" traido desde la memoria");
+                    this.core0.newLog(this.core0.getCoreState());
+                    try{
+                        Thread.sleep(500);
+                    }catch(Exception e){
+                        System.out.println(e.getMessage());
+                    }
+                    this.core0.setCoreState("Escribiendo el dato de "+id+","+core0.getCoreId()+" en L2");
+                    this.core0.newLog(this.core0.getCoreState());
                     this.writeL2(this.L2Row);
                     this.core0.setData(this.getL2Data(this.memDir));
                 }
@@ -66,14 +79,16 @@ public class Cpu extends Thread{
             this.core0.setL1Miss(false);
             
         }else if(core1.isL1Miss()){
+            this.core1.setCoreState("Buscando el dato de "+id+","+core0.getCoreId()+" en L2");
+            this.core1.newLog(this.core0.getCoreState());
             this.memDir = core1.getMemDir();
             if(!this.memDirCheck(this.memDir)){
-                System.out.println("El dato de "+id+","+core1.getCoreId()+" no está en L2");
+                this.core0.setCoreState("El dato de "+id+","+core0.getCoreId()+" no está en L2");
+                this.core0.newLog(this.core0.getCoreState());
                 this.L2Miss = true;
                 this.reqId = core1.getCoreId();
-                System.out.println("Trayendo el dato de "+id+","+core1.getCoreId()+" desde memoria");
-                while(this.L2Miss);
-                System.out.println("Escribiendo el dato de "+id+","+core1.getCoreId()+" en L2");
+                this.core1.setCoreState("Buscando el dato de "+id+","+core0.getCoreId()+" en la otra L2");
+                this.core1.newLog(this.core0.getCoreState());
                 while(this.L2Miss){
                     try{
                         Thread.sleep(1000);
@@ -82,9 +97,19 @@ public class Cpu extends Thread{
                     }
                 }
                 if(this.isFromL2){
+                    this.core1.setCoreState("Dato de "+id+","+core0.getCoreId()+" traido desde la otra L2");
+                    this.core1.newLog(this.core0.getCoreState());
                     this.core1.setData(this.getL2Data(this.memDir));
                 }else{
-                    System.out.println("Escribiendo el dato de "+id+","+core0.getCoreId()+" en L2");
+                    this.core1.setCoreState("Dato de "+id+","+core0.getCoreId()+" traido desde la memoria");
+                    this.core1.newLog(this.core0.getCoreState());
+                    try{
+                        Thread.sleep(500);
+                    }catch(Exception e){
+                        System.out.println(e.getMessage());
+                    }
+                    this.core1.setCoreState("Escribiendo el dato de "+id+","+core0.getCoreId()+" en L2");
+                    this.core1.newLog(this.core0.getCoreState());
                     this.writeL2(this.L2Row);
                     this.core1.setData(this.getL2Data(this.memDir));
                 }
@@ -97,11 +122,15 @@ public class Cpu extends Thread{
 
     private void busWrManager(){
         if(this.core0.isBusWr()){
+            this.core0.setCoreState("Escribiendo el dato de "+id+","+core0.getCoreId()+" en L2");
+            this.core0.newLog(this.core0.getCoreState());
             this.writeCache(core0.getMemDir(), core0.getData(), core0.getCoreId());
             core1.invalidCache(core0.getMemDir());
             this.memDir = core0.getMemDir();
             this.Data = core0.getData();
             this.BusWr = true;
+            this.core0.setCoreState("Escribiendo el dato de "+id+","+core0.getCoreId()+" en Memoria");
+            this.core0.newLog(this.core0.getCoreState());
             while(this.BusWr){
                 try{
                     Thread.sleep(1000);
@@ -112,11 +141,15 @@ public class Cpu extends Thread{
             this.core0.setBusWr(false);
 
         }else if(this.core1.isBusWr()){
+            this.core1.setCoreState("Escribiendo el dato de "+id+","+core0.getCoreId()+" en L2");
+            this.core1.newLog(this.core0.getCoreState());
             this.writeCache(core1.getMemDir(), core1.getData(), core1.getCoreId());
             core0.invalidCache(core1.getMemDir());
             this.memDir = core1.getMemDir();
             this.Data = core1.getData();
             this.BusWr = true;
+            this.core1.setCoreState("Escribiendo el dato de "+id+","+core0.getCoreId()+" en memoria");
+            this.core1.newLog(this.core0.getCoreState());
             while(this.BusWr){
                 try{
                     Thread.sleep(1000);
@@ -124,6 +157,7 @@ public class Cpu extends Thread{
                     System.out.println(e.getMessage());
                 }
             }
+            
             this.core1.setBusWr(false);
 
         }

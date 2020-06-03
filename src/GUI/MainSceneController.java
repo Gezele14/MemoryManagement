@@ -2,6 +2,7 @@ package GUI;
 
 import javafx.beans.property.SimpleStringProperty;
 import javafx.scene.control.Button;
+import javafx.scene.control.Label;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
 
@@ -17,8 +18,17 @@ public class MainSceneController {
   public TableView<String[]> L2P1;
   public TableView<String[]> MEMPRIN;
 
+  public Label StateP00;
+  public Label StateP01;
+  public Label StateP10;
+  public Label StateP11;
+
   public void sayHello(){
     System.out.println("Hello");
+  }
+
+  public void printState(Label label, String msg){
+    label.setText(msg);
   }
 
   public void printMatrix(TableView<String[]> target,String[][] source) {

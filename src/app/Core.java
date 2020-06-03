@@ -9,10 +9,9 @@ public class Core extends Thread{
     public boolean powerON = false;
     private boolean L1Miss = false;
     private boolean BusWr = false;
-    private boolean BusRd = false;;
     private static Semaphore mutex = new Semaphore(1);
     private Log log;
-    private String state;
+    private String coreState = "";
     private String id = "";
     private String fatherId = "";
     private String memDir = "";
@@ -28,9 +27,8 @@ public class Core extends Thread{
         super(msg);
         this.id = _id;
         this.fatherId = _fatherId;
-        this.logName = "core"+this.fatherId+"-"+this.id;
+        this.logName = "SystemLog";
         this.log = new Log(this.logName);
-        log.newInfo("Esto es solo una prueba");
     }
 
     
@@ -39,14 +37,9 @@ public class Core extends Thread{
         while (this.powerON){
             String instruction = this.instr.newInstruction(this.fatherId, this.id);
             String[] instrDecoded = this.instrDecoder(instruction);
-            System.out.println("Nueva instruccion "+instruction+" generada para "+fatherId+","+id);
-            try {
-                mutex.acquire();
-            } catch (Exception e) {
-                System.out.println(e.getMessage());
-            }
+            this.coreState = "Nueva instruccion "+instruction+" generada para "+fatherId+","+id;
+            this.newLog(this.coreState);
             this.MSIprotocol(instrDecoded);
-            mutex.release();
             
         }
     }
@@ -115,7 +108,8 @@ public class Core extends Thread{
             this.L1[i][1] = "M";
             this.L1[i][2] = instr[3];
             this.L1[i][3] = instr[4];
-            System.out.println("Dato escrito en L1 de "+fatherId+","+id);
+            this.coreState = "Dato escrito en L1 de "+fatherId+","+id;
+            this.newLog(this.coreState);
             this.memDir = instr[3];
             this.data = instr[4];
             this.BusWr = true;
@@ -131,17 +125,22 @@ public class Core extends Thread{
             }catch(Exception e){
                 System.out.println(e.getMessage());
             }
+            this.coreState = "Fin de escritura en "+fatherId+","+id;
+            this.newLog(this.coreState);
         }else if(instr[2].equals("CALC")){
-            System.out.println("Inicio de calculo en "+fatherId+","+id);
+            this.coreState = "Inicio de calculo en "+fatherId+","+id;
+            this.newLog(this.coreState);
             try{
-                Thread.sleep(1000);
+                Thread.sleep(4000);
             }catch(Exception e){
                 System.out.println(e.getMessage());
             }
-            System.out.println("Fin de calculo en "+fatherId+","+id);
+            this.coreState = "Fin de calculo en "+fatherId+","+id;
+            this.newLog(this.coreState);
         }else if (instr[2].equals("READ")){
             if(instrCheck(instr)){
-                System.out.println("Inicio de lectura en L1 de "+fatherId+","+id);
+                this.coreState = "Inicio de lectura en L1 de "+fatherId+","+id;
+                this.newLog(this.coreState);
                 if(this.invalidCheck(instr)){
                     this.memDir = instr[3];
                     this.L1Miss = true;
@@ -155,15 +154,22 @@ public class Core extends Thread{
                     this.busWrL1(this.memDir);
                 }
                 try{
-                    Thread.sleep(250);
+                    Thread.sleep(2000);
                 }catch(Exception e){
                     System.out.println(e.getMessage());
                 }
             }else{
-                System.out.println("Dato no esta en L1 de "+fatherId+","+id);
+                this.coreState = "Dato no esta en L1 de "+fatherId+","+id;
+                try{
+                    Thread.sleep(2000);
+                }catch(Exception e){
+                    System.out.println(e.getMessage());
+                }
+                this.newLog(this.coreState);
                 this.memDir = instr[3];
                 this.L1Miss = true;
-                System.out.println("Trayendo el dato de "+fatherId+","+id+" desde L2");
+                this.coreState = "Trayendo el dato de "+fatherId+","+id+" desde L2";
+                this.newLog(this.coreState);
                 while(this.L1Miss){
                     try{
                         Thread.sleep(1000);
@@ -171,10 +177,12 @@ public class Core extends Thread{
                         System.out.println(e.getMessage());
                     }
                 }
-                System.out.println("Actualizando L1 de "+fatherId+","+id+" con el dato leido");
+                this.coreState = "Actualizando L1 de "+fatherId+","+id+" con el dato leido";
+                this.newLog(this.coreState);
                 this.busWrL1(this.memDir);
             }
-            System.out.println("Fin de lectura en L1 de "+fatherId+","+id);
+            this.coreState = "Fin de lectura en L1 de "+fatherId+","+id;
+            this.newLog(this.coreState);
             
         }
        
@@ -206,14 +214,6 @@ public class Core extends Thread{
         BusWr = busWr;
     }
 
-    public boolean isBusRd() {
-        return BusRd;
-    }
-
-    public void setBusRd(boolean busRd) {
-        BusRd = busRd;
-    }
-
     public String getMemDir() {
         return memDir;
     }
@@ -240,7 +240,16 @@ public class Core extends Thread{
 
     public void setL1Miss(boolean l1Miss) {
         L1Miss = l1Miss;
-    }    
+    }
 
+    public String getCoreState() {
+        return coreState;
+    }
 
+    public void setCoreState(String coreState) {
+        this.coreState = coreState;
+    }
+
+    
+    
 }

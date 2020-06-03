@@ -19,7 +19,7 @@ public class Main extends Application {
     stage.show();
     stage.setTitle("Memory Management");
     stage.titleProperty();
-    stage.setX(320);stage.setY(100);
+    stage.setX(320);stage.setY(50);
     stage.setResizable(false);
 
     Platform.setImplicitExit(true);
@@ -54,8 +54,13 @@ public class Main extends Application {
         Platform.runLater(() -> controller.printMatrix(controller.L2P0,system.getCpu0().getL2()));
         Platform.runLater(() -> controller.printMatrix(controller.L2P1,system.getCpu1().getL2()));
         Platform.runLater(() -> controller.printMatrix(controller.MEMPRIN,system.getMemory()));
+
+        Platform.runLater(() -> controller.printState(controller.StateP00, system.getCpu0().getCore0().getCoreState()));
+        Platform.runLater(() -> controller.printState(controller.StateP01, system.getCpu0().getCore1().getCoreState()));
+        Platform.runLater(() -> controller.printState(controller.StateP10, system.getCpu1().getCore0().getCoreState()));
+        Platform.runLater(() -> controller.printState(controller.StateP11, system.getCpu1().getCore1().getCoreState()));
         try {
-          Thread.sleep(500);
+          Thread.sleep(35);
         } catch (InterruptedException exc) {
             throw new Error("Unexpected interruption", exc);
         }
